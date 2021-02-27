@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  background-image: url(./pattern.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.form-box {
+  width: 470px;
+  height: 570px;
+  background-color: rgb(236, 243, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -ms-border-radius:20px;
+  -o-border-radius:20px;
+   box-shadow:   3px 3px 7px rgba(194, 206, 206, 0.8),  -3px -3px 7px rgba(194, 206, 206, 0.8);
+}
+a{text-decoration: none; color: gray;}
+.logo-title h2{
+    color:rgb(103, 209, 137);
+    line-height: 1.5; font-weight: bolder;
+}
+.logo-title p{
+    font-weight:bolder; 
+    margin-bottom: 50px;
+    color:rgb(57, 141, 84);
+    letter-spacing: 2px;
+}
+input {
+  width: 100%;
+  padding: 20px 50px;
+  background-color:transparent;
+  border-radius: 26px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+  border: 0;
+  margin-bottom: 15px;
+  box-shadow: inset 4px 5px 6px rgba(70, 71, 71, 0.5), inset -9px -7px 9px rgba(208, 218, 218, 0.6);
+}
+input[type="submit"]{
+    background-color:rgb(103, 209, 137);
+    box-shadow:  2px 4px 5px rgba(31, 112, 74, 0.7),  -2px -4px 5px rgba(31, 112, 74, 0.7);
+    color:#fff;
+    font: bold 20px serif;
+    cursor: pointer;
+    margin-top:10px;
+    border-radius:29px;
+    -webkit-border-radius:29px;
+    -moz-border-radius:29px;
+    -ms-border-radius:29px;
+    -o-border-radius:29px;
+}
+.login-form{
+    width: 75%;
+}
+input::placeholder{color: gray; font-weight: bold;}
+
+.email {
+    position: relative;
+}
+
+.email i {
+    position: absolute;
+    left: 6%;
+    top: 26%;
+    color:gray;
+}
+.password {
+    position: relative;
+}
+
+.password i {
+    position: absolute;
+    left: 6%;
+    top: 26%;
+    color:gray;
+}
