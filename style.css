@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 .wrapper {
-  background-image: url(./pattern.png);
+  background-image: url(./pattern3.jpg);
   height: 100vh;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
-  background-position: 100%;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,23 +26,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius:20px;
-  -webkit-border-radius:20px;
-  -moz-border-radius:20px;
-  -ms-border-radius:20px;
-  -o-border-radius:20px;
-   box-shadow:   3px 3px 7px rgba(194, 206, 206, 0.8),  -3px -3px 7px rgba(194, 206, 206, 0.8);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 5px 5px 7px rgba(139, 172, 172, 0.8),  -5px -5px 7px rgba(139, 172, 172, 0.8);
+  border: 6px solid rgb(233, 239, 242);
+  transition: all .3s ease-in-out;
 }
 a{text-decoration: none; color: gray;}
-.logo-title h2{
-    color:rgb(103, 209, 137);
-    line-height: 1.5; font-weight: bolder;
-}
 .logo-title p{
     font-weight:bolder; 
     margin-bottom: 50px;
-    color:rgb(57, 141, 84);
+    color: rgb(5, 177, 179);
     letter-spacing: 2px;
+    font-size: 1.8em;
+}
+.logo-title p span {
+  display: block;
 }
 input {
   width: 100%;
@@ -58,8 +60,8 @@ input {
   box-shadow: inset 4px 5px 6px rgba(70, 71, 71, 0.5), inset -9px -7px 9px rgba(208, 218, 218, 0.6);
 }
 input[type="submit"]{
-    background-color:rgb(103, 209, 137);
-    box-shadow:  2px 4px 5px rgba(31, 112, 74, 0.7),  -2px -4px 5px rgba(31, 112, 74, 0.7);
+  background-color: rgb(5, 177, 179);
+  box-shadow: 2px 3px 4px rgba(5, 177, 179, 0.5), -2px -3px 4px rgba(5, 177, 179, 0.5);
     color:#fff;
     font: bold 20px serif;
     cursor: pointer;
@@ -83,7 +85,8 @@ input::placeholder{color: gray; font-weight: bold;}
     position: absolute;
     left: 6%;
     top: 26%;
-    color:gray;
+    color:rgb(5, 177, 179);
+    font-size: 1.1em;
 }
 .password {
     position: relative;
@@ -93,5 +96,11 @@ input::placeholder{color: gray; font-weight: bold;}
     position: absolute;
     left: 6%;
     top: 26%;
-    color:gray;
+    color:rgb(5, 177, 179);
+    font-size: 1.1em;
+}
+.form-box:hover {
+  border:6px solid rgb(233, 239, 242);
+  box-shadow: 6px 6px 5px rgb(0 0 0 / 30%), -6px -6px 5px rgb(0 0 0 / 30%);
+  cursor: pointer;
 }
